@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Montserrat:wght@100&family=Rubik:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #39445a;
+    font-size: 5vw;
+    font-family: "Monserrat", sans-serif;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    color: white;
+    box-shadow: 0 1px 5px black;
+    z-index: 100;
+}
+@media(max-width:1000px)
+{
+   .header{
+    padding-top: 15px;
+    font-size: 7.8vw;
+    /* font-weight: bold; */
+    height: 10vh;
+    align-items: center;
+   } 
+}
+
+
